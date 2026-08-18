@@ -8,8 +8,8 @@
 
 | Nombre completo | Matrícula |
 |---|---|
-| [Nombre completo del estudiante 1] | [Matrícula estudiante 1] |
-| [Nombre completo del estudiante 2] | [Matrícula estudiante 2] |
+| Lender Manuel Sanchez Nonanci | 25-SISN-2-047 |
+| David Eduardo Olivo Encarnacion | 25-SISN-2-021 |
 
 **Docente:** Gamalier Reyes del Carmen
 
