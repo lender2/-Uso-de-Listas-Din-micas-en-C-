@@ -3,11 +3,6 @@ using System.Globalization;
 
 namespace SistemaGestionPacientes
 {
-    /// <summary>
-    /// Punto de entrada del programa. Contiene el menú principal, la lectura
-    /// y validación de datos por consola, y el flujo de cada opción.
-    /// Toda la lógica de negocio (CRUD) vive en GestorPacientes, no aquí.
-    /// </summary>
     class Program
     {
         private static readonly GestorPacientes gestor = new GestorPacientes();
@@ -50,9 +45,6 @@ namespace SistemaGestionPacientes
             }
         }
 
-        /// <summary>
-        /// Imprime el menú principal del sistema.
-        /// </summary>
         static void MostrarMenu()
         {
             Console.WriteLine("\n=========================================");
@@ -195,10 +187,6 @@ namespace SistemaGestionPacientes
         }
 
         // ==================== LECTURA Y VALIDACIÓN DE DATOS ====================
-
-        /// <summary>
-        /// Solicita un texto por consola y no continúa hasta que el campo no esté vacío.
-        /// </summary>
         static string LeerTextoNoVacio(string mensaje)
         {
             string texto;
@@ -215,9 +203,6 @@ namespace SistemaGestionPacientes
             return texto.Trim();
         }
 
-        /// <summary>
-        /// Solicita la edad y valida que sea un número entero dentro de un rango razonable.
-        /// </summary>
         static int LeerEdad(string mensaje)
         {
             int edad;
@@ -236,9 +221,6 @@ namespace SistemaGestionPacientes
             return edad;
         }
 
-        /// <summary>
-        /// Solicita el sexo del paciente y valida que sea 'M' o 'F'.
-        /// </summary>
         static string LeerSexo(string mensaje)
         {
             string sexo;
@@ -257,9 +239,6 @@ namespace SistemaGestionPacientes
             return sexo;
         }
 
-        /// <summary>
-        /// Solicita la fecha de ingreso en formato dd/MM/aaaa y valida que sea una fecha real.
-        /// </summary>
         static DateTime LeerFecha(string mensaje)
         {
             DateTime fecha;
@@ -278,10 +257,6 @@ namespace SistemaGestionPacientes
             return fecha;
         }
 
-        /// <summary>
-        /// Pregunta al usuario si desea repetir la operación actual.
-        /// Devuelve true únicamente si responde 'S'.
-        /// </summary>
         static bool PreguntarRepetir(string mensaje)
         {
             Console.Write("\n" + mensaje);
