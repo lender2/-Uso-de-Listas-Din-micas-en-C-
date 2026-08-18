@@ -2,11 +2,6 @@ using System;
 
 namespace SistemaGestionPacientes
 {
-    /// <summary>
-    /// Clase modelo que representa a un paciente del centro de salud.
-    /// Solo contiene los datos del paciente (sin lógica de negocio);
-    /// la lógica CRUD vive en GestorPacientes.
-    /// </summary>
     public class Paciente
     {
         public string Id { get; set; }
@@ -25,11 +20,6 @@ namespace SistemaGestionPacientes
             Diagnostico = diagnostico;
             FechaIngreso = fechaIngreso;
         }
-
-        /// <summary>
-        /// Representación legible del paciente, usada al listar
-        /// y al mostrar resultados de búsqueda en consola.
-        /// </summary>
         public override string ToString()
         {
             return $"ID: {Id} | Nombre: {NombreCompleto} | Edad: {Edad} | Sexo: {Sexo} | " +
