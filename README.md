@@ -64,7 +64,15 @@ Al registrar o actualizar un paciente, el sistema solicita:
 
 ## Capturas de pantalla
 
-_(Agregar aquí las capturas de pantalla de la ejecución de cada opción del menú: registrar, listar, buscar, actualizar, eliminar y salir del sistema.)_
+<img width="754" height="297" alt="Screenshot 2026-08-18 002850" src="https://github.com/user-attachments/assets/17541d48-bbc6-4768-9fe6-7bdc03228aac" />
+<img width="860" height="784" alt="Screenshot 2026-08-18 003416" src="https://github.com/user-attachments/assets/2434b91b-6f5d-4c46-b31f-786e69cbca8e" />
+<img width="748" height="426" alt="Screenshot 2026-08-18 003500" src="https://github.com/user-attachments/assets/6fb1df1c-0742-4a80-9aca-93be010313be" />
+<img width="545" height="723" alt="Screenshot 2026-08-18 001427" src="https://github.com/user-attachments/assets/75c68184-9ba5-460a-a3b4-552fada3b174" />
+<img width="1523" height="381" alt="Screenshot 2026-08-18 001504" src="https://github.com/user-attachments/assets/98f82f54-b29e-46c6-b385-6b693ae323fb" />
+<img width="1525" height="608" alt="Screenshot 2026-08-18 001628" src="https://github.com/user-attachments/assets/1bde3f3f-02ec-4c6a-8812-ddd67710befa" />
+<img width="1726" height="542" alt="Screenshot 2026-08-18 002658" src="https://github.com/user-attachments/assets/b68283c3-94a8-469c-842b-cadea3d0198d" />
+<img width="1714" height="481" alt="Screenshot 2026-08-18 002829" src="https://github.com/user-attachments/assets/90bfa23f-d3d3-46ce-95dd-17bf0ac5db59" />
+
 
 ## Estructura del proyecto
 
