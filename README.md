@@ -10,6 +10,10 @@
 |---|---|
 | Lender Manuel Sanchez Nonanci | 25-SISN-2-047 |
 | David Eduardo Olivo Encarnacion | 25-SISN-2-021 |
+| Leugim lantigua | 25-SSON-2-004 |
+| Daysi Diaz | 25-SISN-2-014 |
+| Enmanuel Encarnación villa | 25-SISN-2-022 |
+| Rafael Isidro Hodge Primus | 23-EISN-2-031 |
 
 **Docente:** Gamalier Reyes del Carmen
 
